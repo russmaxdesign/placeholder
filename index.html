@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Styling the placeholder attribute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Styling the placeholder attribute</h1>
+    <p><a href="https://github.com/russmaxdesign/open-close">Github Page</a></p>
+    <p>A quick demo of how to style the placeholder attribute.</p>
+
+    <h2>Example</h2>
+    <form action="#">
+      <div class="input">
+        <label class="input__label" for="1a">
+          <span class="input__content">Name</span>
+          <input class="input__control" type="text" name="1a" id="1a" placeholder="Add Your Full Name">
+        </label>
+      </div>
+      <div class="input">
+        <label class="input__label" for="1b">
+          <span class="input__content">Email</span>
+          <input class="input__control" type="text" name="1b" id="1b">
+        </label>
+      </div>
+    </form>
+    <hr>
+
+    <h2>Code</h2>
+    <figure>
+      <figcaption class="markup-heading">Markup</figcaption>
+<pre><code class="language-markup">&lt;input type="text" placeholder="Add Your Full Name"&gt;</code></pre>
+    </figure>
+
+    <figure>
+      <figcaption class="markup-heading">CSS</figcaption>
+<pre><code class="language-css">::-webkit-input-placeholder {
+  opacity: 1;
+  color: red;
+}
+
+:-moz-placeholder {
+  opacity: 1;
+  color: red;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+  color: red;
+}
+
+:-ms-input-placeholder {
+  opacity: 1;
+  color: red;
+}</code></pre>
+    </figure>
+    <hr>
+
+    <p><a href="https://github.com/russmaxdesign/open-close">Github Page</a></p>
+  </div>
+
+<script src="assets/js/prism.js"></script>
+</body>
+</html>
